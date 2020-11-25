@@ -7,19 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header id="nav-header">
         <nav id="nav-bar">
-            <header>JavaScript</header>
+            <header id="bar-header">JavaScript</header>
             <a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a>
             <a href="#Variables" class="nav-link">Variables</a>
-            <a href="#Declaring_variables" class="nav-link">Declaring variables</a>
+            <a href="#Declaring_Variables" class="nav-link">Declaring variables</a>
             <a href="#Data_Types" class="nav-link">Data types</a>
             <a href="#Function_Declarations" class="nav-link">Function declarations</a>
         </nav>
     </header>
     <main id="main-doc">
         <section class="main-section" id="JavaScript_and_Java">
-            <header>JavaScript and Java</header>
+            <header class="main-header">JavaScript and Java</header>
             <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language
             resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression
             syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to
@@ -34,7 +34,7 @@
             implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
         </section>
         <section class="main-section" id="Variables">
-            <header>Variables</header>
+            <header class="main-header">Variables</header>
             <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform
             to certain rules.</p>
             <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be
@@ -44,19 +44,19 @@
             as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
         </section>
         <section class="main-section" id="Declaring_Variables">
-            <header>Declaring Variables</header>
+            <header class="main-header">Declaring Variables</header>
             <p>You can declare a variable in three ways:
             With the keyword var. For example,</p>
-            <code>var x = 42.</code>
+            <code class="code-block">var x = 42.</code>
             <p>This syntax can be used to declare both local and global variables.
             By simply assigning it a value. For example,</p>
-            <code>x = 42.</code>
+            <code class="code-block">x = 42.</code>
             <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.
             With the keyword let. For example,</p>
-            <code>let y = 13.</code>
+            <code class="code-block">let y = 13.</code>
         </section>
         <section class="main-section" id="Data_Types">
-            <header>Data_Types</header>
+            <header class="main-header">Data Types</header>
             <p>The latest ECMAScript standard defines seven data types:</p>
             <li>Six data types that are primitives:</li>
                 <ul>
@@ -71,18 +71,18 @@
             <li>and Object</li>
         </section>
         <section class="main-section" id="Function_Declarations">
-            <header>Function Declarations</header>
+            <header class="main-header">Function Declarations</header>
             <p>A function definition (also called a function declaration, or function statement) consists of the function keyword,
             followed by:</p>
             <li>The name of the function.</li>
             <li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
             <li>The JavaScript statements that define the function, enclosed in curly brackets, { }.</li>
             <p>For example, the following code defines a simple function named square:</p>
-            <code>function square(number) { return number * number; }</code>
+            <code class="code-block">function square(number) { return number * number; }</code>
             <p>The function square takes one argument, called number. The function consists of one statement that says to return the
             argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by
             the function.</p>
-            <code>return number * number;</code>
+            <code class="code-block">return number * number;</code>
             <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if
             the function changes the value of the parameter, this change is not reflected globally or in the calling function.</p>
         </section>
